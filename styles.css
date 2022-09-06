@@ -135,8 +135,28 @@ body{
 }
 .bottom{
     flex: 1;
+    padding: 30px 100px;
+}
+.bottom .container{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+.bottom .container button{
+    margin: 0;
+    border: 2px solid white;
+    min-height: 50px;
 }
 
+.bottom .container .text p,.bottom .container .text h2{
+    margin: 0;
+    color: white;
+}
 .footer{
     background-color: #1F2937;
     flex: 1;
