@@ -1,3 +1,6 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -160,4 +163,10 @@ body{
 .footer{
     background-color: #1F2937;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
 }
