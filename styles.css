@@ -75,9 +75,43 @@ body{
 }
 .mid1{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
 
 }
+.mid1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.mid1 .container{
+    display: flex;
+    justify-content: space-between;
+}
 
+.mid1 .container .Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex: 1;
+}
+.mid1 .container .Box img{
+    max-width: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.mid1 .container .Box p{
+
+    font-size: 20px;
+    color: #1F2937;
+}
 .mid2{
     background-color: #E5E7EB;
     flex: 1;
